@@ -11,7 +11,7 @@ export async function createNote(formData: FormData) {
   await prisma.note.create({
     data: { title, content },
   });
-
+  revalidatePath('/');
   redirect('/');
 }
 
