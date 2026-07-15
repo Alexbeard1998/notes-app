@@ -1,27 +1,14 @@
-# Notes App
-
-A modern, full-featured CRUD application for managing notes, built with Next.js (App Router). This project demonstrates efficient server-side data mutations, production-grade error handling, and polished user experience optimization.
-
-## 🚀 Key Features & Architecture
-
-* **Full CRUD Operations:** Seamlessly Create, Read, Update, and Delete notes.
-* **Next.js Server Actions:** Secure and efficient data mutations performed directly on the server without traditional API layers.
-* **Optimized Async UX:** Implements React's `useTransition` hook to provide instant pending states and loading indicators during mutations (e.g., deletion).
-* **Resilient UX & Error Handling:** 
-  * Native `loading.tsx` integration with dynamic skeleton screens for smooth navigation.
-  * Robust `error.tsx` handling featuring an interactive recovery/reset button.
-  * Personalized `not-found.tsx` layout for custom 404 pages.
-* **SEO & Metadata:** Dynamic page titles and optimized SEO metadata tailored for every specific route.
-
-## 🛠️ Tech Stack
-
-* **Framework:** Next.js (App Router)
-* **Language:** TypeScript / JavaScript
-* **State & Mutations:** React Server Actions, `useTransition`
-* **Styling:**  Tailwind CSS
-* **Database/Storage:** PostgreSQL
-
 # Notes App (Приложение для заметок)
+
+🔗 Живое демо: https://notes-app-alexbeard.vercel.app/
+
+## Главная страница
+
+![Главная страница](screenshots/main.png)
+
+## Заметка
+
+![Страница с заметкой](screenshots/note.png)
 
 Современное полнофункциональное CRUD-приложение для управления заметками, разработанное на базе Next.js (App Router). Проект демонстрирует лучшие практики серверных мутаций данных, коммерческий подход к обработке ошибок и оптимизацию пользовательского опыта.
 
@@ -43,3 +30,9 @@ A modern, full-featured CRUD application for managing notes, built with Next.js 
 * **Управление данными:** React Server Actions, `useTransition`
 * **Стилизация:**  Tailwind CSS 
 * **База данных/Хранилище:** PostgreSQL
+
+## Запуск
+git clone ...
+npm install
+npx prisma migrate dev
+npm run dev
