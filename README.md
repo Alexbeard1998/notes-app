@@ -32,7 +32,9 @@
 * **База данных/Хранилище:** PostgreSQL
 
 ## Запуск
-\`\`\`bash
+```
+bash
+
 git clone ...
 
 npm install
@@ -40,4 +42,4 @@ npm install
 npx prisma migrate dev
 
 npm run dev
-\`\`\`
+```
