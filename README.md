@@ -1,6 +1,6 @@
 # Notes App (Приложение для заметок)
 
-🔗 Живое демо: https://notes-app-alexbeard.vercel.app/
+🔗 [Живое демо](https://notes-app-alexbeard.vercel.app)
 
 ## Главная страница
 
